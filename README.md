@@ -31,3 +31,9 @@ docker push enigmampc/docker-client:latest
 ```
 docker pull enigmampc/docker-client:latest
 ```
+
+## Run
+
+```
+docker run -v /var/run/docker.sock:/var/run/docker.sock -it enigmampc/docker-client /bin/bash
+```
